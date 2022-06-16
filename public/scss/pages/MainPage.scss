@@ -1,3 +1,26 @@
+.navbar {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    // align-items: flex-end;// justify-content: flex-end;
+    background-color: rgb(187, 54, 54);
+    position: sticky;
+    top: 0px;
+
+    width: auto;
+
+    .navbar-box {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+}
+
 .container-holder {
 
     .dummy-container {
@@ -10,13 +33,6 @@
         width: 117px;
     }
 
-    .navbar {
-        padding: 2rem;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        justify-content: flex-end;
-    }
 
     .containerTTTT {
         height: 100vh;
