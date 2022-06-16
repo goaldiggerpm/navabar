@@ -21,6 +21,22 @@
     .containerTTTT {
         height: 100vh;
         width: 100%;
+
+        &.one {
+            background-color: purple;
+        }
+
+        &.two {
+            background-color: rgb(46, 153, 112);
+        }
+
+        &.three {
+            background-color: rgb(30, 36, 122);
+        }
+
+        &.four {
+            background-color: rgb(214, 121, 34)
+        }
     }
 
 
