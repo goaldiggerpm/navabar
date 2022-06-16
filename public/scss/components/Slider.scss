@@ -1,0 +1,23 @@
+.container-yard {
+
+    height: 100vh;
+    background-color: #e7f884;
+
+    .mega-container {
+
+        .progressbar-container {
+
+            progress {
+                padding: 20vh;
+            }
+        }
+
+        .slider-container {
+
+            .section {
+                width: 80vw;
+                height: 80vh;
+            }
+        }
+    }
+}

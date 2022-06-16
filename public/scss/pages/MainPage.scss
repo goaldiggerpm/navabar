@@ -1,0 +1,61 @@
+.container-holder {
+
+    .dummy-container {
+        height: 100vh;
+        width: 100vw;
+        background-color: purple;
+    }
+
+    img {
+        width: 117px;
+    }
+
+    .navbar {
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+
+    .header-box {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+
+        .header-tab {
+            width: 100%;
+            margin-left: 24px;
+            margin-right: 24px;
+            padding: 2rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-link {
+
+            color: white;
+            font-size: 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+    }
+
+    .EZDrawer {
+
+        .EZDrawer__container {
+            background-color: #0028ec;
+            height: 100% !important;
+        }
+    }
+}
