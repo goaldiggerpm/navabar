@@ -71,8 +71,8 @@
             padding: 2rem;
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
+            justify-content: flex-end;
+            align-items: flex-end;
         }
 
         .header-link {

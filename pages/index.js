@@ -94,7 +94,7 @@ export default function Home() {
 
             <div className="header-box" >
               <div className="header-tab" >
-                <img src={logo} alt='logo' />
+
                 <button onClick={toggleDrawer}>Show</button>
               </div>
               <div className="header-link" >
